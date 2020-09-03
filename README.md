@@ -9,6 +9,7 @@
  * @param  grade 二维码背景图
  * @return string
  */
+ 
 public function phpqrcode($id, $titles, $grade)
 
 /**
@@ -17,6 +18,7 @@ public function phpqrcode($id, $titles, $grade)
  * @param  zh 中文
  * @return string
  */
+
 public function pinyin1($zh)
 
 /**
@@ -25,6 +27,7 @@ public function pinyin1($zh)
  * @param  s0 中文
  * @return string
  */
+
 public function getfirstchar($s0)
 
 /**
@@ -33,4 +36,5 @@ public function getfirstchar($s0)
  * @param  s0 中文
  * @return void
  */
+
 public function Sendfile()
